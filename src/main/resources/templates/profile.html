@@ -19,7 +19,7 @@
 			<td th:utext="${model.description}">Description goes here</td>
 		</tr>
 	</table> 
-	<!--   
+	  
 	<h2>Languages spoken</h2>
 	<p>You speak <span th:text="${model.languages.size() >=3} ? '3 or more' : ${model.languages.size()}" >x</span> languages</p>
 	<ul th:if="${model.languages.size() >=3}"  >
@@ -29,6 +29,5 @@
 	<p th:if="${model.languages.size() &lt; 3} OR ${isAdmin}" >You speak <span th:each="language: ${model.languages}" th:text="${language} +' '">language1</span> </p>
 	 
 	<p><a th:href="@{/}" href="homepage.html">Click here</a> to return to the homepage.</p>
-	 -->
 </body>
 </html>
