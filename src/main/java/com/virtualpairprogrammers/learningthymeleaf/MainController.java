@@ -38,6 +38,8 @@ public class MainController {
 		
 		model.put("languages", languages);
 		
+		model.put("color", "#ccc");
+		
 		return new ModelAndView("profile", "model", model);
 	}
 }
